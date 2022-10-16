@@ -38,13 +38,7 @@
          
 <div id="form">
    <h1>Contact Us&nbsp<i class="fas fa-envelope fa-1x"></i></h1>
-    <div class="social">
-    <a href="http://facebook.com/DabiRah"><i class="fab fa-facebook fa-2x"></i></a>
-    <a href="http://twitter.com/aajala61@"><i class="fab fa-twitter fa-2x"></i></a>
-    <a href="http://instagram.com/dabirah18"><i class="fab fa-instagram fa-2x"></i></a>
-    <a href="http://linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
-   </div>
-<form name="Contact" method="POST" data-netlify="true" action="submit">
+<form name="Contact" method="POST" data-netlify="true">
    <label class="title" for="name">First Name</label>
    <input type="text" class="form" placeholder="First Name" id="FirstName">
 
@@ -86,19 +80,22 @@
        </ul>
       </div>
       <div>
-        <form name="Contact" method="POST" data-netlify="true">
         <h3>Email Newletter</h3>
         <p>Get the latest news, techniques and updates straight to your inbox.</p>
-        <input type="text" placeholder="aajala61@gmail">
-        <a href="#" class="btn btn-primary"> subscribe</a>
+        <form name="Contact" method="POST" data-netlify="true"></form>
+        <input type="text" name="email" placeholder="Enter Email...">
+        <input type="submit" value="Subscribe" class="btn btn-primary">
         </form>
         </div>
+        
   <div>
    <h3>Site Links</h3>
    <ul class="list">
      <li><a href="https://developer.chrome.com">developer.chrome.com</a></li>
      <li><a href="https://policies.google.com">Privacy Policy</a></li>
      <li><a href="/article.html">About Us</a></li>
+     <li><a href="/blog.html">Blog</a></li>
+     <li><a href="/services.html">Services</a></li>
    </ul>
   </div>
   <div>
