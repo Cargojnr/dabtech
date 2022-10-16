@@ -13,7 +13,7 @@
 <body>
     <nav id="navbar">
         <ul>
-            <li><a class="current" href="/index.html">Home</a></li>
+            <li><a  href="/index.html">Home</a></li>
             <li><a  href="/article.html">About</a></li>
             <li >Services <i class="fas fa-angle-down"></i>
                <ul>
@@ -39,26 +39,26 @@
 <div id="form">
    <h1>Contact Us&nbsp<i class="fas fa-envelope fa-1x"></i></h1>
 <form name="Contact" method="POST" data-netlify="true">
-   <label class="title" for="name">First Name</label>
-   <input type="text" class="form" placeholder="First Name" id="FirstName">
+   <label class="title" for="name">First Name </label>
+   <input type="text" name="name" class="form" placeholder="First Name" id="FirstName">
 
    <label class="title" for="name">Last Name</label>
-   <input type="text" class="form" placeholder="Last Name" id="LastName">
+   <input type="text" name="name" class="form" placeholder="Last Name" id="LastName">
 
    <label class="title" for="email">Email</label>
-   <input type="email" class="form" placeholder="Email" id="email">
+   <input type="email" name="email" class="form" placeholder="Email" id="email">
 
    <label class="title" for="number">Phone Number</label>
-   <select name="+234" id="+234">
+   <select name="role[+234]" id="+234" >
     <option value="+234"><i class="fas fa-flag-nigeria fa-1x"></i>+234</option>
     <option value="+1"><i class="fas fa-flag-usa fa-1x"></i>+1</option>
     <option value="+229"><i class="fas fa-flag-nigeria fa-1x"></i>+229</option>
    </select>
-   <input type="number" class="form" placeholder="phonenumber" id="phonenumber">
+   <input type="number" name="number" class="form" placeholder="phonenumber" id="phonenumber">
 
    <label class="title" for="name">Message</label>
-   <textarea type="text" placeholder="Message"></textarea>
-   <a href="/success.html" class="submit">Submit</a>
+   <textarea type="text" name="message" placeholder="Message"></textarea>
+   <a href="/sucess.html" class="submit">Submit</a>
 </form>
 </div>
 
